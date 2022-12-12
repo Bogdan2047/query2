@@ -1,0 +1,133 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px 0;
+}
+
+.block-one-name{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Raleway;
+}
+
+.block-one-text {
+    font-size: 18px;
+    font-family: Karla;
+}
+
+.block-two {
+    display: flex;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding-bottom: 20px;
+    min-width:290px;
+    margin-bottom: 40px;
+}
+
+
+.card:hover {
+    box-shadow: 0 0 5px 5px grey;
+}
+
+.card-name {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Raleway;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 20px 40px;
+    position: relative;
+}
+
+
+.card-p {
+    padding: 20px 50px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Raleway;
+    color: gray;
+}
+
+.img {
+    margin-top: 0px;
+    position: absolute;
+    z-index: 5;
+}
+
+
+.card-p span {
+    color: orange;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    text-align: center;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.card-text span{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Raleway;
+    color: gray;
+}
+
+.btn {
+   text-align: center;
+}
+
+.btn button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(72, 208, 226);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .card {
+        width: 49%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .card {
+        width: 100%;
+    }
+}
+
+
+
+
